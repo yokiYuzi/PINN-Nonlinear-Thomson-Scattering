@@ -1,0 +1,18 @@
+1. 新建了conda 环境 PINN 需要激活环境
+conda activate PINN
+(不知道conda 加入path了么）
+C:\>F:
+F:\>cd PINN_code
+F:\PINN_code>conda activate PINN
+(PINN) F:\PINN_code> #成功了，安装了python10.11的环境
+
+-->本人miniconda 和 anaconda 竟然是分开跑的（脑瘫）
+-->meta_learning的项目是配置在miniconda上的
+
+重新在本地配置了12.1版本的CUDA，并且配置了符合12.1版本的PINN环境下的pytorch
+唉唉
+
+一个比较朴实的思路就是只模拟我们非线性过程种最重要的电子运动的非线性过程
+找到一个关于电子轨迹的运动过程的解的问题-->需要重新思考和整编原有的MATLAB代码与公式
+
+
